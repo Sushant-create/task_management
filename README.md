@@ -145,9 +145,8 @@ runs end-to-end and is covered by an automated test suite.
    start.bat            # Windows: creates venv, installs deps, runs
    ```
 
-5. **Open:** http://127.0.0.1:5000
 
-6. **Run tests:**
+5. **Run tests:**
    ```bash
    pytest tests/test_samples.py -v
    ```
