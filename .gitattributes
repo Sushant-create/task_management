@@ -1,0 +1,19 @@
+# Normalize line endings for all text files
+* text=auto eol=lf
+
+*.py text
+*.html text
+*.css text
+*.js text
+*.sql text
+*.md text
+*.txt text
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Avoid diff noise on generated/binary-ish files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
